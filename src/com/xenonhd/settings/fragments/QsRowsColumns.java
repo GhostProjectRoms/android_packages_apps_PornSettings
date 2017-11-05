@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 PornAOSP
+ * Copyright (C) 2017 XenonHD
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.paosp.settings.fragments;
+package com.xenonhd.settings.fragments;
 
-import com.paosp.settings.BaseSettingsFragment;
-import com.paosp.settings.R;
+import com.xenonhd.settings.BaseSettingsFragment;
+import com.xenonhd.settings.R;
 
 public class QsRowsColumns extends BaseSettingsFragment {
 
     @Override
     protected int getPreferenceResource() {
-        return R.xml.paosp_qs_rows_columns;
+        return R.xml.xenonhd_qs_rows_columns;
     }
 
 }

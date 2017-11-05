@@ -1,4 +1,4 @@
-package com.paosp.settings.fragments;
+package com.xenonhd.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -33,7 +33,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.paosp_settings_misc);
+        addPreferencesFromResource(R.xml.xenonhd_settings_misc);
 
     }
 
@@ -45,6 +45,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PAOSP;
+        return MetricsProto.MetricsEvent.XENONHD;
     }
 }

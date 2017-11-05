@@ -1,4 +1,4 @@
-package com.paosp.settings.fragments;
+package com.xenonhd.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -21,7 +21,7 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.paosp.settings.preferences.Utils;
+import com.xenonhd.settings.preferences.Utils;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -39,7 +39,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.paosp_settings_quicksettings);
+        addPreferencesFromResource(R.xml.xenonhd_settings_quicksettings);
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
@@ -95,7 +95,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PAOSP;
+        return MetricsProto.MetricsEvent.XENONHD;
     }
 
 }

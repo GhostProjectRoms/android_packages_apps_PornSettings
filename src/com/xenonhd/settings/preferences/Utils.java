@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.paosp.settings.preferences;
+package com.xenonhd.settings.preferences;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -43,10 +43,10 @@ import android.view.DisplayInfo;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import com.paosp.settings.R;
+import com.xenonhd.settings.R;
 
 public final class Utils {
-    private static final String TAG = "PornSettingsUtils";
+    private static final String TAG = "XenonSettingsUtils";
 
     // Device types
     private static final int DEVICE_PHONE = 0;

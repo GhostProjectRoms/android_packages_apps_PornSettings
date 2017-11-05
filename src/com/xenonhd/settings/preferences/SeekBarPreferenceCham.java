@@ -1,4 +1,4 @@
-package com.paosp.settings.preferences;
+package com.xenonhd.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -23,7 +23,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.paosp.settings.R;
+import com.xenonhd.settings.R;
 
 public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekBarChangeListener {
 
@@ -57,13 +57,13 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
 
     public SeekBarPreferenceCham(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setLayoutResource(R.layout.paosp_seekbar_preference);
+        setLayoutResource(R.layout.xenonhd_seekbar_preference);
         setValuesFromXml(attrs, context);
     }
 
     public SeekBarPreferenceCham(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setLayoutResource(R.layout.paosp_seekbar_preference);
+        setLayoutResource(R.layout.xenonhd_seekbar_preference);
         setValuesFromXml(attrs, context);
     }
 
@@ -184,7 +184,7 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
 
         LayoutInflater mInflater = (LayoutInflater) getContext()
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        mPopupValue = (TextView) mInflater.inflate(R.layout.paosp_seekbar_value_popup, null, false);
+        mPopupValue = (TextView) mInflater.inflate(R.layout.xenonhd_seekbar_value_popup, null, false);
         mPopupValue.getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
                 @Override
                 public void onGlobalLayout() {

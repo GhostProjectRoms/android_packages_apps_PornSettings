@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 PornAOSP
+ * Copyright (C) 2017 XenonHD
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  */
 
 
-package com.paosp.settings.fragments;
+package com.xenonhd.settings.fragments;
 
 import android.os.Bundle;
 import android.support.v7.preference.ListPreference;
@@ -23,8 +23,8 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 
-import com.paosp.settings.BaseSettingsFragment;
-import com.paosp.settings.R;
+import com.xenonhd.settings.BaseSettingsFragment;
+import com.xenonhd.settings.R;
 
 public class BatteryBar extends BaseSettingsFragment
         implements Preference.OnPreferenceChangeListener {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.paosp.settings.preferences;
+package com.xenonhd.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -23,7 +23,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Switch;
 
-import com.paosp.settings.R;
+import com.xenonhd.settings.R;
 
 /**
  * A custom preference that provides inline switch toggle. It has a mandatory field for title, and
@@ -54,7 +54,7 @@ public class MasterSwitchPreference extends TwoTargetPreference {
 
     @Override
     protected int getSecondTargetResId() {
-        return R.layout.paosp_widget_master_switch;
+        return R.layout.xenonhd_widget_master_switch;
     }
 
     @Override

@@ -36,7 +36,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.paosp.settings.R;
+import com.xenonhd.settings.R;
 
 /**
  * A preference type that allows a user to choose a time

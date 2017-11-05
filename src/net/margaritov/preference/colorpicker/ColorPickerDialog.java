@@ -29,7 +29,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.paosp.settings.R;
+import com.xenonhd.settings.R;
 
 public class ColorPickerDialog
         extends
@@ -78,7 +78,7 @@ public class ColorPickerDialog
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(
                 Context.LAYOUT_INFLATER_SERVICE);
 
-        View layout = inflater.inflate(R.layout.paosp_dialog_color_picker, null);
+        View layout = inflater.inflate(R.layout.xenonhd_dialog_color_picker, null);
 
         setContentView(layout);
 

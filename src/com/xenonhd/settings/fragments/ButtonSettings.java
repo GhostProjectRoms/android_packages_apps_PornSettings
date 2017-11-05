@@ -16,7 +16,7 @@
  *
  */
 
-package com.paosp.settings.fragments;
+package com.xenonhd.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -44,7 +44,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.paosp_settings_buttons);
+        addPreferencesFromResource(R.xml.xenonhd_settings_buttons);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
     }
@@ -57,7 +57,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.PAOSP;
+        return MetricsProto.MetricsEvent.XENONHD;
     }
 
 }

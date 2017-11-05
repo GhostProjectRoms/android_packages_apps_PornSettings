@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 PornAOSP
+ * Copyright (C) 2017 XenonHD
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.paosp.settings.preferences;
+package com.xenonhd.settings.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;
