@@ -1,4 +1,4 @@
-package com.xenonhd.settings.fragments;
+package com.paosp.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -25,7 +25,7 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.xenonhd.settings.preferences.MasterSwitchPreference;
+import com.paosp.settings.preferences.MasterSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
 
@@ -44,7 +44,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_statusbar);
+        addPreferencesFromResource(R.xml.paosp_settings_statusbar);
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
@@ -60,7 +60,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD;
+        return MetricsProto.MetricsEvent.PAOSP;
     }
 
     @Override

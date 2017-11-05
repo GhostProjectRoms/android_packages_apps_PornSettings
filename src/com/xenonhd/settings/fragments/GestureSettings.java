@@ -1,4 +1,4 @@
-package com.xenonhd.settings.fragments;
+package com.paosp.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -13,12 +13,12 @@ public class GestureSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_gestures);
+        addPreferencesFromResource(R.xml.paosp_settings_gestures);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD;
+        return MetricsProto.MetricsEvent.PAOSP;
     }
 
 }

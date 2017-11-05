@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2017 XenonHD
+<!-- Copyright (C) 2017 PornAOSP
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -22,14 +22,14 @@
         android:key="misc_category"
         android:title="@string/dashboard_category" >
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+    <com.paosp.settings.preferences.SystemSettingSwitchPreference
         android:key="enable_conditions"
         android:title="@string/dashboard_conditions_title"
         android:summaryOn="@string/summary_dashboard_conditions_enabled"
         android:summaryOff="@string/summary_dashboard_conditions_disabled"
         android:defaultValue="true" />
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+    <com.paosp.settings.preferences.SystemSettingSwitchPreference
         android:key="enable_suggestions"
         android:title="@string/dashboard_suggestions_title"
         android:summaryOn="@string/summary_dashboard_suggestions_enabled"
@@ -38,13 +38,13 @@
 
     </PreferenceCategory>
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+    <com.paosp.settings.preferences.SystemSettingSwitchPreference
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
         android:summary="@string/toast_icon_summary"
         android:defaultValue="true" />
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+    <com.paosp.settings.preferences.SystemSettingSwitchPreference
         android:key="sensor_block"
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"

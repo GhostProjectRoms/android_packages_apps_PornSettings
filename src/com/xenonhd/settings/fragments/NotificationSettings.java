@@ -1,4 +1,4 @@
-package com.xenonhd.settings.fragments;
+package com.paosp.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -13,11 +13,11 @@ public class NotificationSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_notifications);
+        addPreferencesFromResource(R.xml.paosp_settings_notifications);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD;
+        return MetricsProto.MetricsEvent.PAOSP;
     }
 }

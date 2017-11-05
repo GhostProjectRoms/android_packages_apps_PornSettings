@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonhd.settings.fragments;
+package com.paosp.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -49,7 +49,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_power);
+        addPreferencesFromResource(R.xml.paosp_settings_power);
 
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -64,7 +64,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD;
+        return MetricsProto.MetricsEvent.PAOSP;
     }
 
 }

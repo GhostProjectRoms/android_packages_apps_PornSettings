@@ -1,4 +1,4 @@
-package com.xenonhd.settings.fragments;
+package com.paosp.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 import android.app.Activity;
@@ -32,7 +32,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_recents);
+        addPreferencesFromResource(R.xml.paosp_settings_recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -62,6 +62,6 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD;
+        return MetricsProto.MetricsEvent.PAOSP;
     }
 }

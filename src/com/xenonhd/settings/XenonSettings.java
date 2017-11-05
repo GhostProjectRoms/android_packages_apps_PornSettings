@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2016 The Pure Nexus Project
- * used for Nitrogen OS & XenonHD
+ * used for Nitrogen OS & PornAOSP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.xenonhd.settings;
+package com.paosp.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +29,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class XenonSettings extends SettingsPreferenceFragment {
+public class PornSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings);
+        addPreferencesFromResource(R.xml.paosp_settings);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD;
+        return MetricsProto.MetricsEvent.PAOSP;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

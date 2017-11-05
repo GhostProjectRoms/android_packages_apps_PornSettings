@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonhd.settings.fragments;
+package com.paosp.settings.fragments;
 
 import java.util.ArrayList;
 
@@ -42,7 +42,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.xenonhd_settings_navigation);
+        addPreferencesFromResource(R.xml.paosp_settings_navigation);
 
     }
 
@@ -54,6 +54,6 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.XENONHD;
+        return MetricsProto.MetricsEvent.PAOSP;
     }
 }
